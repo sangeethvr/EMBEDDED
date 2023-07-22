@@ -1,0 +1,1 @@
+ --thumb -c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include -I "C:\Keil\ARM\INC\Philips" -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o ".\bin\main.o" --omf_browse ".\bin\main.crf" --depend ".\bin\main.d" "main.c"

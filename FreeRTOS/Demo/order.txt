@@ -1,0 +1,12 @@
+0. show original with actual forlder
+1. leds - uart task creation  using taskdelay
+2. uart task with diffr priority task delay
+3. uart send task with for loop delay
+4. uart send task with for loop delay and priority
+5. task deletion
+6. uart lcd no mutex
+7. binary sem
+8. counting sem
+9. queue
+10. interrupts
+11. project

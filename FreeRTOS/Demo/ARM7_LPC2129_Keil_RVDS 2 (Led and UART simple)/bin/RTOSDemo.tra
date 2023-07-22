@@ -1,0 +1,26 @@
+*** Creating Trace Output File '.\bin\RTOSDemo.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\bin\startup.o"'
+### List of Objects: adding '".\bin\main.o"'
+### List of Objects: adding '".\bin\tasks.o"'
+### List of Objects: adding '".\bin\list.o"'
+### List of Objects: adding '".\bin\queue.o"'
+### List of Objects: adding '".\bin\port.o"'
+### List of Objects: adding '".\bin\heap_2.o"'
+### List of Objects: adding '".\bin\portasm.o"'
+### ADS-LD Command completed:
+--device DARMP ".\bin\startup.o" ".\bin\main.o" ".\bin\tasks.o" ".\bin\list.o" ".\bin\queue.o" ".\bin\port.o" ".\bin\heap_2.o" ".\bin\portasm.o" --strict --scatter ".\bin\RTOSDemo.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RTOSDemo.map" -o ".\bin\RTOSDemo.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\bin\RTOSDemo.axf'
+### ADS-LD Command File: '.\bin\RTOSDemo.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\bin\RTOSDemo.lnp', Handle=0x000002FC
+### Writing '.lnp' file
+### ADS-LD Command file '.\bin\RTOSDemo.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

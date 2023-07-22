@@ -1,0 +1,44 @@
+#include<pic.h>
+void main()
+{
+int sw1=0,sw2=0;
+TRISB=0x00;
+PORTB=0X00;
+TRISD=0X42;
+PORTD=0X00;
+TRISC=0x00;
+PORTC=0x00;
+while(1)
+{
+	if(RD1==1)
+		{
+		while(RD1==1)
+			{
+			}
+		if(sw1%2==0)
+			{
+			PORTB=0x00;
+			}
+		else
+			{
+			PORTB=0xff;
+			}
+sw1++;
+		}
+	if(RD6==1)
+		{
+		while(RD6==1)
+			{
+			}
+		if(sw2%2==0)
+			{
+			PORTC=0x00;
+			}
+		else
+			{
+			PORTC=0xff;
+			}
+sw2++;
+		}
+}
+}

@@ -1,0 +1,13 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\main.o"
+".\tasks.o"
+".\list.o"
+".\queue.o"
+".\port.o"
+".\heap_2.o"
+".\portasm.o"
+--strict --scatter ".\RTOSDemo.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\RTOSDemo.map" -o .\RTOSDemo.axf

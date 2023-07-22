@@ -1,0 +1,16 @@
+main.o: main.c
+main.o: C:\Keil\ARM\RV31\INC\stdlib.h
+main.o: C:\Keil\ARM\INC\Philips\lpc21xx.h
+main.o: ..\..\Source\include\FreeRTOS.h
+main.o: C:\Keil\ARM\RV31\INC\stddef.h
+main.o: C:\Keil\ARM\RV31\INC\stdint.h
+main.o: ..\..\Source\include\FreeRTOSConfig.h
+main.o: ..\..\Source\include\projdefs.h
+main.o: ..\..\Source\include\portable.h
+main.o: ..\..\Source\include\deprecated_definitions.h
+main.o: ..\..\Source\include\..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+main.o: ..\..\Source\include\mpu_wrappers.h
+main.o: ..\..\Source\include\task.h
+main.o: ..\..\Source\include\list.h
+main.o: ..\..\Source\include\semphr.h
+main.o: ..\..\Source\include\queue.h
